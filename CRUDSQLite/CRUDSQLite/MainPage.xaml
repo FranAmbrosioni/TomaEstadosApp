@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRUDSQLite.MainPage">
+
+    <StackLayout>
+
+        <Label Text="Registro de Usuarios" 
+               HorizontalTextAlignment="Center"
+               VerticalOptions="CenterAndExpand"/>
+        <Entry x:Name="txtIdUsuario" IsVisible="False" />
+        <Entry x:Name="txtNombre" Placeholder="Nombre"/>
+        <Entry x:Name="txtEstado" Placeholder="Estado"/>
+        <Entry x:Name="txtLectura" Placeholder="Lectura Actual"/>
+        <Entry x:Name="txtLecturaAnterior" Placeholder="Lectura Anterior"/>
+        <Entry x:Name="txtRuta" Placeholder="Ruta"/>
+        <Entry x:Name="txtSecuencia" Placeholder="Secuencia"/>
+        <Button x:Name="btnRegistar" Text="Tomar Estado" Clicked="btnRegistar_Clicked"/>
+        <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" IsVisible="False"/>
+        <Button x:Name="btnEliminar" Text="Eliminar Registro" Clicked="btnEliminar_Clicked" IsVisible="False" />
+
+        <ListView x:Name="lstUsuarios" ItemSelected="lstUsuarios_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <ViewCell>
+                        <Grid>
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding Id}" Grid.Row="0" Grid.Column="0" TextColor="Blue"/>
+                            <Label Text="{Binding Nombre}" Grid.Row="0" Grid.Column="1" TextColor="Blue"/>
+                            <Label Text="{Binding Estado}" Grid.Row="0" Grid.Column="2" TextColor="Blue"/>
+                            <Label Text="{Binding Lectura}" Grid.Row="0" Grid.Column="3" TextColor="Blue"/>
+                            <Label Text="{Binding LecturaAnterior}" Grid.Row="0" Grid.Column="4" TextColor="Blue"/>
+                            <Label Text="{Binding Ruta}" Grid.Row="0" Grid.Column="5" TextColor="Blue"/>
+                            <Label Text="{Binding Secuencia}" Grid.Row="0" Grid.Column="6" TextColor="Blue"/>
+                            
+                            
+                        </Grid>
+                    </ViewCell>
+                    
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

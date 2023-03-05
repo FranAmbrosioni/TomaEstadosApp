@@ -1,0 +1,15 @@
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\bin\Debug\netstandard2.0\CRUDSQLite.deps.json
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\bin\Debug\netstandard2.0\CRUDSQLite.dll
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\bin\Debug\netstandard2.0\ref\CRUDSQLite.dll
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\bin\Debug\netstandard2.0\CRUDSQLite.pdb
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\CRUDSQLite.csproj.AssemblyReference.cache
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\CRUDSQLite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\CRUDSQLite.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\CRUDSQLite.AssemblyInfo.cs
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\CRUDSQLite.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\CRUDSQLite.dll
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\ref\CRUDSQLite.dll
+C:\Users\usuario\source\repos\CRUDSQLite\CRUDSQLite\CRUDSQLite\obj\Debug\netstandard2.0\CRUDSQLite.pdb
